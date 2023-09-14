@@ -1,0 +1,29 @@
+{
+    "comentario": [
+      {
+        "score": 4,
+        "description": "Hermoso planeta para vivir.",
+        "user": "saul_dominguez",
+        "dateTime": "2022-04-18 13:20:56"
+      },
+      {
+        "score": 3,
+        "description": "La semana pasada estuve por ahi.",
+        "user": "lucia_ralek",
+        "dateTime": "2022-04-05 11:20:09"
+      },
+      {
+        "score": 5,
+        "description": "IM PRE SIO NAN TE.",
+        "user": "mateo_diestre",
+        "dateTime": "2022-03-21 22:38:39"
+      },
+      {
+        "score": 1,
+        "description": "No recomiendo falta oxigeno",
+        "user": "ralph_baer",
+        "dateTime": "2022-01-04 11:16:48"
+      }
+    ]
+  }
+  

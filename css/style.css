@@ -1,0 +1,114 @@
+
+body {
+  background-image: url(photo.jpg); 
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-attachment: fixed; /* Mantiene la imagen de fondo fija mientras se desplaza la página */
+}
+
+
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+
+#listaImagenes {
+  list-style-type: none; 
+  padding: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;/
+  margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+}
+
+#listaImagenes li {
+  flex-basis: calc(33.33% - 10px); 
+  margin-bottom: 10px; 
+}
+
+#listaImagenes img {
+  width: 100%; /* Establece un ancho del 100% para que todas las imágenes tengan el mismo ancho */
+  height: 200px; /* Establece la misma altura para todas las imágenes  */
+}
+
+
+.imagen-info {
+  max-height: 100px; 
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido excede la altura máxima */
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  background-color: #f9f9f9; 
+}
+
+
+/* Estilo a los comentarios del producto */
+
+.comment {
+  border: 1px solid #616060; 
+  padding-left: 50px;
+  width: 80%; /* ancho del borde */
+  margin: 5px 0; /* Espaciado vertical entre los comentarios */
+}
+.comment p {
+  margin-bottom: 2px; /* Ajusta el espaciado entre párrafos dentro de los comentarios */
+}
+
+.comment .user {
+  font-weight: bold; /* negrita para resaltar el nombre de usuario */
+}
+.comentarios{
+  font-size: 10px;
+}
+
+/* Estilos para las estrellas */
+.star-rating {
+  color: #f1c40f; /* Color de las estrellas (amarillo) */
+}
+
+.star-rating .fa-star {
+  font-size: 16px; /* Tamaño del icono de estrella */
+}
+
+/* Estilos para el icono de estrella vacía */
+.star-rating .fa-star-o {
+  font-size: 16px; /* Tamaño del icono de estrella vacía */
+  color: #ccc; /* Color de las estrellas vacías (gris) */
+}
+
+.addComentario {
+  padding-left: 15px;
+  font-family: fantasy;
+  color: rgb(203, 237, 100);
+
+ 
+  display: flex; /* Utiliza un contenedor flexible para centrar */
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
+ 
+}
+#comment{
+  background-color: #f1c40fa4;
+}
+#inputBuscar{
+  background-color:rgba(4, 27, 132, 0.511);
+}
+/* boton para eliminar comentario */
+
+.delete-comment-button {
+ 
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+/* Estilos para el h1 con fondo negro */
+h1 {
+  background-color: rgba(0, 0, 0, 0.434); /* Establece el fondo en negro */
+  color: rgba(7, 158, 239, 0.86); /* Cambia el color del texto a blanco para que sea legible en el fondo negro */
+  padding: 10px; /* Añade un espacio de relleno para separar el texto del fondo */
+  border-radius: 10px;
+  font-family: fantasy;
+
+}
